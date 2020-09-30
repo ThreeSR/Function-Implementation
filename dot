@@ -1,0 +1,5 @@
+Note that unlike MATLAB, * is elementwise multiplication, not matrix multiplication.
+We instead use the dot function to compute inner products of vectors, to multiply a vector by a matrix, and to multiply matrices. 
+dot is available both as a function in the numpy module and as an instance method of array objects:
+
+np.dot(x,y) # don't add another bracket
